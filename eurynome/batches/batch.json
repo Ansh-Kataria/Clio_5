@@ -1,0 +1,1163 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+  "source_paper": "arXiv:0000.00000",
+  "disposition": {
+    "verdict": "hold",
+    "reason": "pilot_required"
+  },
+  "batch_digest": "b4ff2a986fab2ab8e9ad73e5ec8c24912840cb907130bc38e60053ad0b9fc0ac",
+  "tasks": [
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t0-00",
+      "title": "Probe task probe-t0-00",
+      "instruction_path": "eurynome/batches/probe-t0-00/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t0-00-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t0-00/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 0,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t0-00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t0-01",
+      "title": "Probe task probe-t0-01",
+      "instruction_path": "eurynome/batches/probe-t0-01/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t0-01-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t0-01/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 0,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t0-01"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t1-00",
+      "title": "Probe task probe-t1-00",
+      "instruction_path": "eurynome/batches/probe-t1-00/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t1-00-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t1-00/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 1,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t1-00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t1-01",
+      "title": "Probe task probe-t1-01",
+      "instruction_path": "eurynome/batches/probe-t1-01/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t1-01-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t1-01/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 1,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t1-01"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t1-02",
+      "title": "Probe task probe-t1-02",
+      "instruction_path": "eurynome/batches/probe-t1-02/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t1-02-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t1-02/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 1,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t1-02"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t1-03",
+      "title": "Probe task probe-t1-03",
+      "instruction_path": "eurynome/batches/probe-t1-03/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t1-03-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t1-03/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 1,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t1-03"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t2-00",
+      "title": "Probe task probe-t2-00",
+      "instruction_path": "eurynome/batches/probe-t2-00/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t2-00-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t2-00/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 2,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t2-00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t2-01",
+      "title": "Probe task probe-t2-01",
+      "instruction_path": "eurynome/batches/probe-t2-01/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t2-01-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t2-01/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 2,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t2-01"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t2-02",
+      "title": "Probe task probe-t2-02",
+      "instruction_path": "eurynome/batches/probe-t2-02/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t2-02-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t2-02/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 2,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t2-02"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t2-03",
+      "title": "Probe task probe-t2-03",
+      "instruction_path": "eurynome/batches/probe-t2-03/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t2-03-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t2-03/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 2,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t2-03"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t2-04",
+      "title": "Probe task probe-t2-04",
+      "instruction_path": "eurynome/batches/probe-t2-04/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t2-04-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t2-04/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 2,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t2-04"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t2-05",
+      "title": "Probe task probe-t2-05",
+      "instruction_path": "eurynome/batches/probe-t2-05/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t2-05-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t2-05/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 2,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t2-05"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-00",
+      "title": "Probe task probe-t3-00",
+      "instruction_path": "eurynome/batches/probe-t3-00/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-00-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-00/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-01",
+      "title": "Probe task probe-t3-01",
+      "instruction_path": "eurynome/batches/probe-t3-01/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-01-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-01/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-01"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-02",
+      "title": "Probe task probe-t3-02",
+      "instruction_path": "eurynome/batches/probe-t3-02/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-02-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-02/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-02"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-03",
+      "title": "Probe task probe-t3-03",
+      "instruction_path": "eurynome/batches/probe-t3-03/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-03-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-03/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-03"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-04",
+      "title": "Probe task probe-t3-04",
+      "instruction_path": "eurynome/batches/probe-t3-04/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-04-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-04/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-04"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-05",
+      "title": "Probe task probe-t3-05",
+      "instruction_path": "eurynome/batches/probe-t3-05/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-05-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-05/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-05"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-06",
+      "title": "Probe task probe-t3-06",
+      "instruction_path": "eurynome/batches/probe-t3-06/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-06-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-06/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-06"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-07",
+      "title": "Probe task probe-t3-07",
+      "instruction_path": "eurynome/batches/probe-t3-07/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-07-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-07/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-07"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-08",
+      "title": "Probe task probe-t3-08",
+      "instruction_path": "eurynome/batches/probe-t3-08/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-08-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-08/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-08"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t3-09",
+      "title": "Probe task probe-t3-09",
+      "instruction_path": "eurynome/batches/probe-t3-09/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t3-09-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t3-09/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 3,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t3-09"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-00",
+      "title": "Probe task probe-t4-00",
+      "instruction_path": "eurynome/batches/probe-t4-00/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-00-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-00/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-01",
+      "title": "Probe task probe-t4-01",
+      "instruction_path": "eurynome/batches/probe-t4-01/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-01-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-01/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-01"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-02",
+      "title": "Probe task probe-t4-02",
+      "instruction_path": "eurynome/batches/probe-t4-02/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-02-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-02/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-02"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-03",
+      "title": "Probe task probe-t4-03",
+      "instruction_path": "eurynome/batches/probe-t4-03/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-03-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-03/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-03"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-04",
+      "title": "Probe task probe-t4-04",
+      "instruction_path": "eurynome/batches/probe-t4-04/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-04-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-04/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-04"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-05",
+      "title": "Probe task probe-t4-05",
+      "instruction_path": "eurynome/batches/probe-t4-05/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-05-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-05/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-05"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-06",
+      "title": "Probe task probe-t4-06",
+      "instruction_path": "eurynome/batches/probe-t4-06/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-06-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-06/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-06"
+    },
+    {
+      "schema_version": "1.0.0",
+      "task_id": "probe-t4-07",
+      "title": "Probe task probe-t4-07",
+      "instruction_path": "eurynome/batches/probe-t4-07/instruction.md",
+      "entry_point": "run.sh",
+      "image_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+      "compute": {
+        "cpu_milli": 2000,
+        "memory_mib": 4096,
+        "storage_mib": 8192
+      },
+      "network": {
+        "policy": "denied"
+      },
+      "timeout": {
+        "task_seconds": 3600,
+        "setup_seconds": 300,
+        "scoring_seconds": 300
+      },
+      "verifiers": [
+        {
+          "id": "probe-t4-07-verifier",
+          "kind": "test_suite",
+          "script_path": "eurynome/batches/probe-t4-07/verify.sh",
+          "script_digest": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+          "timeout_seconds": 300
+        }
+      ],
+      "fixtures": [],
+      "difficulty": {
+        "tier": 4,
+        "explanation": "placeholder: no calibration evidence exists",
+        "confidence": "design_target"
+      },
+      "run_id": "b5ed847b-c8a4-5a1a-a3ea-a79e8997fdc2",
+      "canary": "fornax-canary-probe-t4-07"
+    }
+  ],
+  "created_at": "2026-03-09T19:00:30+00:00",
+  "tier_distribution": {
+    "tiers": [
+      2,
+      4,
+      6,
+      10,
+      8
+    ],
+    "hard_expert_pct": 60
+  }
+}
